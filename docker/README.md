@@ -48,6 +48,8 @@ To update your self-hosted Supabase instance:
 5. Stop services: `docker compose down`
 6. Start services with new configuration: `docker compose up -d`
 
+7. `docker compose --env-file ./env.pal up -d` Specify the env file
+
 **Note:** Consider to always backup your database before updating.
 
 ## Community & Support
